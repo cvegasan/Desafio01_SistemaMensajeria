@@ -29,6 +29,18 @@ body *{                   /* reseteo de etiquetas (*) significa todo, todas las 
 .cls-width-usuarios{
     width: 20%;
 }
+.cls-width-usuarios-online{
+    width: 20%;
+}
+.cls-width-nombreestado-online{
+    width: 50%;
+}
+.cls-width-icon-online{
+    width: 30%;
+}
+.cls-width-otros-usuarios{
+    width: 40%;
+}
 .cls-bg-chat{
     background-color:#f0f0f0;
 }
@@ -44,7 +56,7 @@ body *{                   /* reseteo de etiquetas (*) significa todo, todas las 
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 15px;
 }
 .cls-icon-centrado{
     display: flex;
@@ -53,10 +65,10 @@ body *{                   /* reseteo de etiquetas (*) significa todo, todas las 
     text-align: center;
 }
 .cls-usuario{
-    font-size: 20px;
+    font-size: 16px;
 }
 .cls-online{
-    font-size: 15px;
+    font-size: 12px;
     color:#ababab;
 }
 .cls-icon-color{
@@ -68,11 +80,16 @@ div .cls-usuario-encabezado{
     border-radius: 100%;
 }
 div .cls-otros-usuarios{
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
 }
-
+.cls-usuario-centrado{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+}
 .cls-logo-centrado{
     display: flex;
     flex-direction:column;
@@ -91,6 +108,9 @@ div .cls-otros-usuarios{
 }
 .cls-negrita{
     font-weight: bold;
+}
+.cls-texto-mensaje{
+    font-size: 12px;
 }
 h1{
     font-size: 50px;
