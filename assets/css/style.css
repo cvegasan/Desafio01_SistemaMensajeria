@@ -1,0 +1,97 @@
+body{
+    margin: 0px;          /* sin margenes a los lados */
+    font-family: 'Roboto', sans-serif; /* cuando no funciona la primera, se ocupa la segunda, sino la tercera. estos son los "fallbacks" */
+}
+body *{                   /* reseteo de etiquetas (*) significa todo, todas las etiquetas dentro de body */
+    margin: 0px;
+    border: 0px;     /* rich black hexadecimal #RRGGBB*/
+    padding: 0px;          /* sin margenes a los lados */
+}
+.contenedor, .cls-alinear-contacto{
+    display: flex;
+    flex-direction:row;
+}
+.cls-border{
+    border: 2px solid black;
+}
+.cls-border-der{
+    border-right: 2px solid #c0c0c0;
+}
+.cls-border-izq{
+    border-left: 2px solid #c0c0c0;
+}
+.cls-border-bottom{
+    border-bottom: 2px solid #c0c0c0;
+}
+.cls-bg-usuarios{
+    background-color: white;
+}
+.cls-width-usuarios{
+    width: 20%;
+}
+.cls-bg-chat{
+    background-color:#f0f0f0;
+}
+.cls-width-chat{
+    width: 80%;
+}
+.cls-bg-lila{
+    background-color:#be9fc3;
+    border-color: #be9fc3;
+    color: white;
+}
+.cls-btn-centrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.cls-icon-centrado{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.cls-usuario{
+    font-size: 20px;
+}
+.cls-online{
+    font-size: 15px;
+    color:#ababab;
+}
+.cls-icon-color{
+    color:#c0c0c0;
+}
+div .cls-usuario-encabezado{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+div .cls-otros-usuarios{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+
+.cls-logo-centrado{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.cls-tamannio-logo{
+    width: 300px;
+    height: 300px;
+}
+.cls-puntos-suspensivos{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
+}
+.cls-negrita{
+    font-weight: bold;
+}
+h1{
+    font-size: 50px;
+}
