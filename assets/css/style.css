@@ -1,3 +1,12 @@
+/*
+p-0: No padding (0)
+p-1: Extra small padding (0.25rem or 4 pixels)
+p-2: Small padding (0.5rem or 8 pixels)
+p-3: Medium padding (1rem or 16 pixels)
+p-4: Large padding (1.5rem or 24 pixels)
+p-5: Extra large padding (3rem or 48 pixels)
+*/
+
 body{
     margin: 0px;          /* sin margenes a los lados */
     font-family: 'Roboto', sans-serif; /* cuando no funciona la primera, se ocupa la segunda, sino la tercera. estos son los "fallbacks" */
@@ -47,11 +56,17 @@ body *{                   /* reseteo de etiquetas (*) significa todo, todas las 
 .cls-width-chat{
     width: 80%;
 }
-.cls-bg-lila{
-    background-color:#be9fc3;
-    border-color: #be9fc3;
+/**/
+.cls-btn {
+    border: none;
     color: white;
-}
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .cls-bg-lila {background-color: #be9fc3;}
+  .cls-bg-lila:hover {background: #be9fc3;}
+/**/
 .cls-btn-centrado{
     display: flex;
     align-items: center;
@@ -115,6 +130,12 @@ div .cls-otros-usuarios{
 }
 .cls-texto-mensaje{
     font-size: 12px;
+}
+.cls-padding-2{
+    padding: 8px;
+}
+.cls-padding-bottom-3{
+    padding-top: 16px;
 }
 h1{
     font-size: 50px;
