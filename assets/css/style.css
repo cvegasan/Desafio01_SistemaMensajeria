@@ -16,9 +16,14 @@ body *{                   /* reseteo de etiquetas (*) significa todo, todas las 
     border: 0px;     /* rich black hexadecimal #RRGGBB*/
     padding: 0px;          /* sin margenes a los lados */
 }
-.contenedor, .cls-alinear-contacto{
+.contenedor{
     display: flex;
     flex-direction:row;
+}
+.cls-alinear-contacto{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
 }
 .cls-border{
     border: 2px solid black;
@@ -56,7 +61,6 @@ body *{                   /* reseteo de etiquetas (*) significa todo, todas las 
 .cls-width-chat{
     width: 80%;
 }
-/**/
 .cls-btn {
     border: none;
     color: white;
@@ -64,9 +68,8 @@ body *{                   /* reseteo de etiquetas (*) significa todo, todas las 
     cursor: pointer;
     border-radius: 5px;
   }
-  .cls-bg-lila {background-color: #be9fc3;}
-  .cls-bg-lila:hover {background: #be9fc3;}
-/**/
+.cls-bg-lila {background-color: #be9fc3;}
+.cls-bg-lila:hover {background: #be9fc3;}
 .cls-btn-centrado{
     display: flex;
     align-items: center;
